@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 coluna1 , coluna2 = st.columns(2)
 
-dados = pd.read_csv("/Users/User/Downloads/PLANILHA DE VENDAS DA JHUBIJOU ACESSORIOS(Planilha1).csv")
+dados = pd.read_csv("sqlite/tabela_residuos.csv")
 
 st.title("Dashboard")
 st.subheader("Tabela com os dados")
